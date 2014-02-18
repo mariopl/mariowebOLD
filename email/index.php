@@ -24,9 +24,9 @@
       
    ";
 	if(mail($to,$subject,$message,$headers))
-		header("Location:../index.php?msg=Successful Submission! Thankyou for contacting us.");
+		header("email/index.php?msg=Successful Submission! Thankyou for contacting us.");
 	else
-		header("Location:../index.php?msg=Error To send Email !");
+		header("email/index.php?msg=Error To send Email !");
 		//contact:-your-email@your-domain.com
  }
 ?>
