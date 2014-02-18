@@ -488,6 +488,7 @@ cite {
 }
 .text-left {
   text-align: left;
+  vertical-align: middle;
 }
 .text-right {
   text-align: right;
@@ -4038,6 +4039,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #446160;
+  font-size:15px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
